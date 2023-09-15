@@ -1,0 +1,70 @@
+{
+  "emmet.includeLanguages": {
+    "javascript": "html"
+  },
+  "atlascode.jira.lastCreateSiteAndProject": {
+    "siteId": "",
+    "projectKey": ""
+  },
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
+  "editor.minimap.enabled": true,
+  "editor.renderControlCharacters": false,
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.autoReveal": false,
+  "vsicons.dontShowNewVersionMessage": true,
+  "todo-tree.tree.showScanModeButton": false,
+  "search.useIgnoreFiles": false,
+  "search.exclude": {
+    "**/node_modules": false
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "editor.lineNumbers": "relative",
+  "files.exclude": {
+    ".next": true,
+    "/.next": true,
+    "/node_modules": true,
+    "/public": true
+  },
+  "window.menuBarVisibility": "toggle",
+  "editor.suggestSelection": "first",
+  "editor.fontFamily": "Hack, hack mono, Fira Code",
+  "editor.fontLigatures": true,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "yaml.schemas": {
+    "file:///home/charlie/.vscode/extensions/atlassian.atlascode-3.0.5/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDragAndDrop": false,
+  "redhat.telemetry.enabled": false,
+  "extensions.ignoreRecommendations": true,
+  "editor.inlineSuggest.enabled": true,
+  "git.confirmSync": false,
+  "workbench.colorTheme": "Vim Dark Hard",
+  "window.zoomLevel": 2,
+  "glassit.alpha": 255,
+  "terminal.integrated.fontFamily": "monospace",
+  "vim.leader": "<space>",
+  "editor.cursorSurroundingLines": 8,
+  "editor.stickyScroll.enabled": true,
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["'"],
+      "after": [":"]
+    }
+  ]
+}
