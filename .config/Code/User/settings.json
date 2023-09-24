@@ -2,14 +2,9 @@
   "emmet.includeLanguages": {
     "javascript": "html"
   },
-  "atlascode.jira.lastCreateSiteAndProject": {
-    "siteId": "",
-    "projectKey": ""
-  },
   "files.associations": {
     "*.js": "javascriptreact"
   },
-  "editor.minimap.enabled": true,
   "editor.renderControlCharacters": false,
   "editor.detectIndentation": false,
   "editor.tabSize": 2,
@@ -39,9 +34,9 @@
     "/node_modules": true,
     "/public": true
   },
-  "window.menuBarVisibility": "toggle",
+  "window.menuBarVisibility": "compact",
   "editor.suggestSelection": "first",
-  "editor.fontFamily": "Hack, hack mono, Fira Code",
+  "editor.fontFamily": "hack mono, Hack, Fira Code",
   "editor.fontLigatures": true,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "yaml.schemas": {
@@ -56,15 +51,23 @@
   "git.confirmSync": false,
   "workbench.colorTheme": "Vim Dark Hard",
   "window.zoomLevel": 2,
-  "glassit.alpha": 255,
   "terminal.integrated.fontFamily": "monospace",
   "vim.leader": "<space>",
   "editor.cursorSurroundingLines": 8,
   "editor.stickyScroll.enabled": true,
-  "vim.normalModeKeyBindings": [
-    {
-      "before": ["'"],
-      "after": [":"]
-    }
-  ]
+  "editor.minimap.autohide": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": false,
+    "scminput": false
+  },
+  "vscode-neovim.neovimExecutablePaths.linux": "/snap/nvim/current/usr/bin/nvim",
+  "vscode-neovim.neovimInitVimPaths.linux": "$HOME/.config/nvim/init.lua",
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "svelte.enable-ts-plugin": true,
+  "workbench.activityBar.visible": false,
+  "workbench.sideBar.location": "right"
 }
