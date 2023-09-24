@@ -1,0 +1,109 @@
+{
+	"name": "nvim-ui-modifier",
+	"repository": {
+		"url": "https://github.com/kensleDev/vscode-nvim-ui"
+	},
+	"displayName": "Neovim Ui Modifier",
+	"description": "Change theme accent colors by changing NVim modes",
+	"icon": "assets/logo.png",
+	"version": "0.1.4",
+	"engines": {
+		"vscode": "^1.76.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"publisher": "JulianIaquinandi",
+	"activationEvents": [],
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "nvim-theme.normal",
+				"title": "NVIM Normal"
+			},
+			{
+				"command": "nvim-theme.insert",
+				"title": "NVIM Insert"
+			},
+			{
+				"command": "nvim-theme.visual",
+				"title": "NVIM Visual"
+			},
+			{
+				"command": "nvim-theme.replace",
+				"title": "NVIM Replace"
+			}
+		],
+		"configuration": {
+			"title": "nvim-ui",
+			"properties": {
+				"nvim-ui.nvimColorNormal": {
+					"type": "string",
+					"default": "#ffc600",
+					"description": "Normal mode color"
+				},
+				"nvim-ui.nvimColorInsert": {
+					"type": "string",
+					"default": "#D32F2F",
+					"description": "Insert mode color"
+				},
+				"nvim-ui.nvimColorVisual": {
+					"type": "string",
+					"default": "#673AB7",
+					"description": "Visual mode color"
+				},
+				"nvim-ui.nvimColorReplace": {
+					"type": "string",
+					"default": "#000",
+					"description": "Replace mode color"
+				},
+				"nvim-ui.nvimColorCustomizationKeys": {
+					"type": "array",
+					"default": [
+						"editorCursor.foreground"
+					],
+					"description": "colorCustomization keys to change when changing modes"
+				}
+			}
+		}
+	},
+	"scripts": {
+		"build": "tsc -p ./",
+		"package": "vsce package",
+		"compile": "yarn build && yarn package",
+		"watch": "tsc -watch -p ./",
+		"pretest": "yarn compile && yarn lint",
+		"lint": "eslint src --ext ts",
+		"format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
+		"test": "node ./out/test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/glob": "^8.1.0",
+		"@types/mocha": "^10.0.1",
+		"@types/node": "16.x",
+		"@types/vscode": "^1.76.0",
+		"@typescript-eslint/eslint-plugin": "^5.56.0",
+		"@typescript-eslint/parser": "^5.56.0",
+		"@vscode/test-electron": "^2.2.3",
+		"eslint": "^8.36.0",
+		"glob": "^8.1.0",
+		"mocha": "^10.2.0",
+		"prettier": "^2.8.6",
+		"typescript": "^4.9.5",
+		"vsce": "^2.15.0"
+	},
+	"dependencies": {
+		"zod": "^3.21.4"
+	},
+	"__metadata": {
+		"id": "8bc0b3c7-1630-4ff9-bc52-568e38ad699f",
+		"publisherId": "78188564-32b4-4d17-b892-1a4ab527be2d",
+		"publisherDisplayName": "Julian Iaquinandi",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1694816659868,
+		"preRelease": false
+	}
+}

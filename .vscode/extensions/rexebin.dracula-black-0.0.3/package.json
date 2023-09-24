@@ -1,0 +1,44 @@
+{
+	"name": "dracula-black",
+	"displayName": "Darcula Theme - Black Edition",
+	"description": "Darcula Theme - Black Edition",
+	"version": "0.0.3",
+	"publisher": "rexebin",
+	"icon": "icon.png",
+	"engines": {
+		"vscode": "^1.22.0"
+	},
+	"repository": {
+		"url": "https://www.github.com/rexebin/darcula"
+	},
+	"keywords": [
+		"Darcula",
+		"Black",
+		"WebStorm",
+		"Dark Theme",
+		"Typescript",
+		"Angular"
+	],
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Darcula - Black Edition",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Darcula-color-theme-black.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "f31186d3-4fee-4d63-b7b2-8f13b30efdc4",
+		"publisherId": "6042d581-2887-4868-8ac3-18c87236c9e1",
+		"publisherDisplayName": "rexebin",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1691236625742,
+		"preRelease": false
+	}
+}
