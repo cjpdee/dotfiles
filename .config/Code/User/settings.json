@@ -68,11 +68,13 @@
     "asvetliakov.vscode-neovim": 1
   },
   "svelte.enable-ts-plugin": true,
+  "workbench.activityBar.visible": false,
   "workbench.sideBar.location": "right",
   "git-autoconfig.configList": [
     {
       "user.email": "cjpdee@gmail.com",
       "user.name": "cjpdee"
     }
-  ]
+  ],
+  "vscode-neovim.neovimExecutablePaths.win32": "C:\\Program Files\\Neovim\\bin\\nvim.exe"
 }
