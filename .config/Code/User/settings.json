@@ -75,7 +75,7 @@
     }
   ],
   "vscode-neovim.neovimExecutablePaths.win32": "C:\\Program Files\\Neovim\\bin\\nvim.exe",
-  "editor.matchBrackets": "never",
+  "editor.matchBrackets": false,
   "workbench.colorTheme": "Vim Dark Hard",
   "npm.keybindingsChangedWarningShown": true,
   "window.zoomLevel": 2,
