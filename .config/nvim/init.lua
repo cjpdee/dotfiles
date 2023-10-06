@@ -1,4 +1,6 @@
 vim.keymap.set("n", ";", ":")
+vim.keymap.set("n", "<C-d>", "12jzz")
+vim.keymap.set("n", "<C-u>", "12kzz")
 
 
 -- user settings

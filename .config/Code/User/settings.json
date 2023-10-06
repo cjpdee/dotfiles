@@ -34,25 +34,23 @@
     "/node_modules": true,
     "/public": true
   },
-  "window.menuBarVisibility": "compact",
   "editor.suggestSelection": "first",
-  "editor.fontFamily": "hack mono, Hack, Fira Code",
+  "editor.fontFamily": "Hack Nerd Font",
   "editor.fontLigatures": true,
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "yaml.schemas": {
-    "file:///home/charlie/.vscode/extensions/atlassian.atlascode-3.0.5/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
-  },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "explorer.confirmDragAndDrop": false,
-  "redhat.telemetry.enabled": false,
   "extensions.ignoreRecommendations": true,
   "editor.inlineSuggest.enabled": true,
   "git.confirmSync": false,
-  "workbench.colorTheme": "Vim Dark Hard",
-  "window.zoomLevel": 2,
   "terminal.integrated.fontFamily": "monospace",
   "vim.leader": "<space>",
+  "vim.normalModeKeyBindings": [
+    {
+      "before": [";"],
+      "after": [":"]
+    }
+  ],
   "editor.cursorSurroundingLines": 8,
   "editor.stickyScroll.enabled": true,
   "editor.minimap.autohide": true,
@@ -76,5 +74,33 @@
       "user.name": "cjpdee"
     }
   ],
-  "vscode-neovim.neovimExecutablePaths.win32": "C:\\Program Files\\Neovim\\bin\\nvim.exe"
+  "vscode-neovim.neovimExecutablePaths.win32": "C:\\Program Files\\Neovim\\bin\\nvim.exe",
+  "editor.matchBrackets": "never",
+  "workbench.colorTheme": "Vim Dark Hard",
+  "npm.keybindingsChangedWarningShown": true,
+  "window.zoomLevel": 2,
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Ubuntu (WSL)": {
+      "path": "C:\\Windows\\System32\\wsl.exe",
+      "args": ["-d", "Ubuntu"]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
+  "terminal.integrated.fontSize": 16,
+  "editor.fontSize": 16
 }
